@@ -9,7 +9,7 @@ import pageObjects.MyAccountPage;
 
 public class TC002_LoginTest extends BaseClass{
 
-	@Test
+	@Test(groups={"Sanity","Master"})
 	public void verify_Login() {
 		
 	try {

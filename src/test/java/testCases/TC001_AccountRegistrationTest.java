@@ -15,7 +15,7 @@ import pageObjects.HomePage;
 
 public class TC001_AccountRegistrationTest extends BaseClass{
 	
-	@Test
+	@Test(groups={"Regression","Master"})
 	public void verify_account_registration() {
 		
 		HomePage hp=new HomePage(driver);
